@@ -13,6 +13,10 @@ O objetivo deste projeto é desenvolver um sistema que permita o armazenamento e
 - Aplicação de água e nutrientes com base nos dados coletados.
 - Capacidade de rastrear leituras e ajustes por cultura e local.
 
+## Diagrama Entidade-Relacionamento (DER)
+
+![Diagrama Entidade-Relacionamento](./diagram.png)
+
 ## Entidades Principais
 
 ### 1. **Sensor**
