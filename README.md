@@ -8,9 +8,7 @@
 
 # Modelo de Banco de Dados para Gestão de Insumos Agrícolas
 
-## Nome do grupo
-
-## 👨‍🎓 Integrantes: 
+## 👨‍🎓 Integrantes do grupo: 
 - <a href="https://www.linkedin.com/in/ribeirogab/">Gabriel de Oliveira Soares Ribeiro</a>
 
 ## 👩‍🏫 Professores:
