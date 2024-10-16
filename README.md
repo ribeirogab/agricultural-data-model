@@ -28,7 +28,7 @@ Representa os diferentes sensores usados nas plantações.
   - `sensor_id`: Identificador único do sensor.
   - `sensor_type`: Tipo do sensor (Umidade, pH, Nutrientes).
 
-### 2. **Leitura_Sensor**
+### 2. **Sensor_Reading**
 
 Armazena as leituras feitas pelos sensores em momentos específicos.
 
@@ -43,7 +43,7 @@ Armazena as leituras feitas pelos sensores em momentos específicos.
   - `phosphorus_value`: Nível de fósforo (se aplicável).
   - `potassium_value`: Nível de potássio (se aplicável).
 
-### 3. **Aplicação**
+### 3. **Application**
 
 Armazena os ajustes feitos na irrigação e aplicação de nutrientes.
 
@@ -56,7 +56,7 @@ Armazena os ajustes feitos na irrigação e aplicação de nutrientes.
   - `phosphorus_amount`: Quantidade de fósforo aplicado.
   - `potassium_amount`: Quantidade de potássio aplicado.
 
-### 4. **Cultura (Crop)**
+### 4. **Crop**
 
 Armazena informações sobre as culturas plantadas.
 
@@ -66,7 +66,7 @@ Armazena informações sobre as culturas plantadas.
   - `crop_name`: Nome da cultura.
   - `planting_date`: Data de plantio.
 
-### 5. **Localização (Location)**
+### 5. **Location**
 
 Armazena informações sobre as localizações da plantação onde as leituras são feitas.
 
@@ -78,10 +78,10 @@ Armazena informações sobre as localizações da plantação onde as leituras s
 
 ## Relacionamentos
 
-- Um **Sensor** pode ter várias **Leituras_Sensor** associadas (1:N).
-- Uma **Cultura (Crop)** pode ter várias **Leituras_Sensor** e **Aplicações** associadas (1:N).
-- Uma **Localização (Location)** pode estar associada a várias **Leituras_Sensor** (1:N).
-- Cada **Aplicação** está relacionada a uma **Cultura (Crop)** (N:1).
+- Um **Sensor** pode ter várias **Sensor_Reading** associadas (1:N).
+- Uma **Crop** pode ter várias **Sensor_Reading** e **Application** associadas (1:N).
+- Uma **Location** pode estar associada a várias **Sensor_Reading** (1:N).
+- Cada **Application** está relacionada a uma **Crop** (N:1).
 
 ## Arquivos Incluídos
 
